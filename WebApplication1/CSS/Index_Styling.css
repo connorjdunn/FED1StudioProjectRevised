@@ -1,0 +1,84 @@
+﻿/*Color Pallete with Descriptions
+    CB997E - Dark Tanish
+    DDBEA9 - Salmonish
+    FFE8D6 - Tan
+    B7B7A4 - Light Gray 
+    A5A58D - Darker Gray
+    6B705C - Darkest Gray
+    lemonchiffon
+    black
+    Imported Fonts
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Outfit', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Outfit:wght@100;400&display=swap");
+
+body {
+    background-color: #FFE8D6;
+}
+
+p {
+    color: black;
+}
+
+.h1font {
+    font: bold;
+}
+
+.h1font {
+    font-style: italic;
+}
+
+nav a {
+    font-weight: bold;
+    color: lemonchiffon;
+}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+
+nav ul {
+    background-color: #DDBEA9;
+    padding: 0;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+}
+
+nav li::after:hover {
+    background-color: #CB997E;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 1em;
+        display: block;
+    }
+
+.articleBackground {
+    background-color: #6B705C;
+}
+
+h2 {
+    color: #B7B7A4;
+}
+
+h1 {
+    color: #6B705C;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+    font-family: 'Dongle', sans-serif;
+}
+
+.fas fa-address-card {
+    color: darkblue;
+}
